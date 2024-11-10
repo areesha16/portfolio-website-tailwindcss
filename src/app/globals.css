@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    @keyframes gradient-xy{
+        0% 100% { 
+            background-positon: 0% 50%;
+        }
+    }
+    .animate-gradient-xy{
+     animation:gradient-xy 1s ease infinte;
+    background-size: 200% 200%;}
+        
+}
